@@ -65,11 +65,13 @@ public class Position {
 	 * 		totalYearly = payPerHour*Hours*4.5*monthsAYear.
 	 * @return 
 	 */
+	
 	public double getYearlySalary() {
 		
-		//Add Code Here [You have to use If/Else to get graded]
-		
-		return 0; //Temporal Return
-		
+		if(this.jobType = true){
+			
+			return hSalary*40*4.5*12;
+			}
+		else  return hSalary*20*4.5*12;
 	}
 }
