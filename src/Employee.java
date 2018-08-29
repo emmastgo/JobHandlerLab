@@ -80,9 +80,24 @@ public class Employee {
 	 */
 	public int seniorityLevel() {
 		
+		if(this.yearService>=10){
+			return 3;
+			}
+		else if (this.yearService>=5){
+			return 2;
+			
+		}
+		else if (this.yearService>=1){
+			return 1;
+			
+		}
+		else{
+			return 0;
+		}
+		
 		//Add Code Here [You have to use If/Else to get graded]
 		
-		return 0;// Temporal Return
+		// Temporal Return
 		
 	}
 }
